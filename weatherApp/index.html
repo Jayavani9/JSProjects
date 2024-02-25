@@ -44,7 +44,7 @@
 
     <script>
 
-        const apiKey = "23968af15f664a3c7ffd14eb45f90504";
+        const apiKey = "YOUR_API_KEY";
         const apiURL = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
         const searchBox = document.querySelector(".search input");
@@ -71,27 +71,27 @@
             document.querySelector(".wind").innerHTML = data.wind.speed + 'km/h';
 
             if(data.weather[0].main == 'Clouds') {
-                weatherIcon.src = "/Users/jayavaniakkiraju/weatherApp/images/clouds.png";
+                weatherIcon.src = "./images/clouds.png";
             }
             else if(data.weather[0].main == 'Clear')
             {
-                weatherIcon.src = "/Users/jayavaniakkiraju/weatherApp/images/clear.png";
+                weatherIcon.src = "./images/clear.png";
             }
             else if(data.weather[0].main == 'Drizzle')
             {
-                weatherIcon.src = "/Users/jayavaniakkiraju/weatherApp/images/drizzle.png"
+                weatherIcon.src = "./images/drizzle.png"
             }
             else if(data.weather[0].main == 'Mist')
             {
-                weatherIcon.src = "/Users/jayavaniakkiraju/weatherApp/images/mist.png"
+                weatherIcon.src = "./images/mist.png"
             }
             else if(data.weather[0].main == ' Rain')
             {
-                weatherIcon.src = "/Users/jayavaniakkiraju/weatherApp/images/rain.png"
+                weatherIcon.src = "./images/rain.png"
             }
             else if(data.weather[0].main == 'Snow')
             {
-                weatherIcon.src = "/Users/jayavaniakkiraju/weatherApp/images/snow.png"
+                weatherIcon.src = "./snow.png"
             }
 
             document.querySelector(".weather").style.display = "block";
