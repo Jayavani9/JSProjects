@@ -10,7 +10,7 @@ https://openweathermap.org/
 Ref:     
 https://www.youtube.com/watch?v=MIYQR-Ybrn4&list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9&index=1
 
-2. QR Code Generator 
+2.QR Code Generator 
 
 An app that generates a random QR code given some text/ URL.
 If a blank text is given, it generate an error message.
