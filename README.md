@@ -19,7 +19,9 @@ If a blank text is given, it generate an error message.
 Technologies used: HTML, CSS, JS
 
 QR Code generator API used:
+
 https://goqr.me/api/
 
 Ref: 
+
 https://www.youtube.com/watch?v=g1j9rR-H1lk&list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9&index=8
