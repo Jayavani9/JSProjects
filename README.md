@@ -25,3 +25,13 @@ https://goqr.me/api/
 Ref: 
 
 https://www.youtube.com/watch?v=g1j9rR-H1lk&list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9&index=8
+
+3. Text to Speech Converter
+
+An application that converts the given text to speech.
+
+Technologies used: HTML, CSS, JS
+
+Ref:
+
+https://www.youtube.com/watch?v=3oDNqHZ7UKY&list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9&index=20
